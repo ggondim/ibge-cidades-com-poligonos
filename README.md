@@ -82,6 +82,7 @@ Teste de visualização do polígono no município:
 ## Limitações
 - **Atualização**: esse repositório depende de dois repositórios, portanto, está limitado às atualizações deles. Por conta dessa dependência e do esforço não remunerado de atualizar frequentemente, não existe intenção de atualizações periódicas. No entanto, existem 5.770 municípios com polígonos no último cruzamento de polígonos, o que deve ser suficiente para cobrir a grande maioria de casos de uso.
 - **Simplicidade dos polígonos**: conforme informado pelo Eduardo Veras no repositório [eduardo-veras/kml-brasil](https://github.com/eduardo-veras/kml-brasil), os polígonos foram simplificados para diminuir sua complexidade e tamanho (por conta dos micro segmentos dos polígonos originais no IBGE). Por isso, o polígono pode não corresponder com exatidão às fronteiras dos municípios nem às suas áreas. Entretanto, mesmo com a simplificação, os polígonos são suficientes para cobrir a maioria dos casos de uso.
+- **Municípios não encontrados**: na última geração, 4 municípios na base de municípios não foram encontrados no repositório kml-brasil: `Januário Cicco, RN`, `Açu, RN`, `Augusto Severo, RN` e `Pingo d'Água, MG`.
 
 ## Gerar/atualizar os dados
 
