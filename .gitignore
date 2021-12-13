@@ -114,5 +114,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-media/ggondim/arquivos-ext4/repos/noalvo/importacao-metricas/node_modules
