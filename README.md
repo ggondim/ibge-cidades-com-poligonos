@@ -71,6 +71,24 @@ Teste de visualização do polígono no município:
 
 ![image](https://user-images.githubusercontent.com/2074685/145829415-4c3be422-e72e-4031-bdc8-2bfd5fe4be39.png)
 
+## Como usar
+
+### npm
+
+Você pode usar o arquivo `municipios-poligonos.json` no seu projeto como um pacote do npm:
+
+```
+$ npm install --save ibge-cidades-com-poligonos
+```
+
+```
+const municipios = require('ibge-cidades-com-poligonos');
+```
+
+### Baixando o arquivo
+
+Você também pode baixar o último arquivo `municipios-poligonos.json` gerado no formato [JSON](municipios-poligonos.json) ou [ZIP](https://github.com/ggondim/ibge-cidades-com-poligonos/releases/tag/v1.0.0).
+
 ## Como esse repositório foi gerado
 
 - A base de municípios e suas propriedades (nome, UF, etc.) são obtidas do repositório [ggondim/ibge-cidades](https://github.com/eduardo-veras/kml-brasil) através de submódulo.

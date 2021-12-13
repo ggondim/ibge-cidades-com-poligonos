@@ -2,16 +2,20 @@
   "name": "ibge-cidades-com-poligonos",
   "version": "1.0.0",
   "description": "Cruzamento da base de municípios do IBGE em JSON com os polígonos de cada município em GeoJSON.",
-  "main": "conversao.js",
+  "main": "municipios-poligonos.json",
+  "files": ["./municipios-poligonos.json"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./conversao.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ggondim/ibge-cidades-com-poligonos.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "email": "gustavospgondim@gmail.com",
+    "name": "Gustavo Gondim"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ggondim/ibge-cidades-com-poligonos/issues"
