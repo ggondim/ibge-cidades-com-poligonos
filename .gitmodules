@@ -1,0 +1,6 @@
+[submodule "kml-brasil"]
+	path = kml-brasil
+	url = git@github.com:eduardo-veras/kml-brasil.git
+[submodule "ibge-cidades"]
+	path = ibge-cidades
+	url = https://github.com/ggondim/ibge-cidades
